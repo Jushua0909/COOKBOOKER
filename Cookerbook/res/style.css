@@ -1,0 +1,192 @@
+body {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #fffaf0;
+    color: #4cf923;
+    background-image: url('kitchen-background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    color: #d35400;
+    padding: 0.5em;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #e67e22;
+    text-decoration: underline;
+}
+
+.navbar {
+    padding: 1em;
+    background-color: #f8f1e4;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-bottom: 2px solid #e6ccb2;
+}
+
+.navbar a {
+    color: #a04000;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    background-color: #fdf2e9;
+    color: #e67e22;
+    border-radius: 5px;
+}
+
+#loginform {
+    display: block;
+    padding: 2em;
+    width: 90%;
+    max-width: 600px;
+    margin: 3rem auto;
+    text-align: left;
+    background-color: #ffffffd9;
+    border-radius: 12px;
+    border: 1px solid #e6ccb2;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#loginform input,
+#loginform select {
+    width: 100%;
+    margin: 0.5em 0 1em;
+    padding: 0.8em;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    color: #333;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+#loginform input[type='checkbox'] {
+    width: auto;
+    margin-right: 10px;
+}
+
+#loginform input[type='submit'] {
+    background-color: #e67e22;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    padding: 0.9em;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#loginform input[type='submit']:hover {
+    background-color: #d35400;
+}
+
+#loginform label {
+    font-size: 1.1em;
+    color: #5e3200;
+    display: block;
+    margin-top: 1em;
+}
+
+.form-check-label {
+    font-size: 0.95em;
+    color: #5e3200;
+}
+
+.promo-container {
+    margin-top: 50px;
+}
+
+.promo {
+    background: #fff4e6;
+    color: #5e3200;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.promo:hover {
+    transform: scale(1.05);
+}
+
+.promo h4 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.promo .price {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #d35400;
+}
+
+.promo .buy a {
+    background-color: #d35400;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.promo .buy a:hover {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.container {
+    border-radius: 12px;
+    padding: 2rem;
+    background-color: #fffaf0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.content-box {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #a04000;
+    font-family: 'Merriweather', serif;
+}
+
+.lead {
+    color: #7f5c36;
+}
+
+.btn-primary {
+    background-color: #e67e22;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    background-color: #d35400;
+}
+
+@media (max-width: 767px) {
+    .promo {
+        margin-bottom: 2rem;
+        border-radius: 8px;
+    }
+
+    .promo:last-child {
+        margin-bottom: 0;
+    }
+
+    #loginform {
+        padding: 1.5em;
+    }
+}
